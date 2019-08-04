@@ -1,6 +1,6 @@
 # TF-Lite Model Parse
 
-[![Build Status](https://travis-ci.com/SF-Zhou/tflite-model-parse.svg?branch=master)](https://travis-ci.com/SF-Zhou/tflite-model-parse)
+[![Build Status](https://travis-ci.com/tutorials-with-ci/tflite-model-parse.svg?branch=master)](https://travis-ci.com/tutorials-with-ci/tflite-model-parse)
 
 Parse TF-Lite Model File in C++
 

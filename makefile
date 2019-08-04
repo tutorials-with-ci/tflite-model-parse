@@ -21,9 +21,9 @@ include/schema_generated.h: include/ build/flatc build/schema.fbs
 	mv build/schema_generated.h include
 
 build/flatc:
-	git clone https://github.com/google/flatbuffers.git --depth 1
+	[ -d flatbuffers ] || git clone https://github.com/google/flatbuffers.git --depth 1
 	mkdir -p build
-	cd build && cmake ../flatbuffers && make -j8
+	cd build && cmake ../flatbuffers && make -j8 flatc
 
 build/schema.fbs:
 	mkdir -p build
